@@ -16,7 +16,17 @@ project/project
 project/target
 target
 tmp
+.history
+dist
 test-result
 server.pid
 *.iml
 *.eml
+/.idea
+/*.iml
+/out
+/.idea_modules
+/.classpath
+/.project
+/RUNNING_PID
+/.settings
