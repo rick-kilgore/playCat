@@ -30,3 +30,4 @@ server.pid
 /.project
 /RUNNING_PID
 /.settings
+.cache
