@@ -31,3 +31,5 @@ server.pid
 /RUNNING_PID
 /.settings
 .cache
+abandoned
+*.class

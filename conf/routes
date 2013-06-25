@@ -4,6 +4,12 @@
 
 # Home page
 GET     /                           controllers.Application.index
+GET     /echo                       controllers.Application.echo
+GET     /hello/:name                controllers.Application.hello(name)
+GET     /save/:fname/:title         controllers.Application.save(fname, title)
+GET     /findById/:id               controllers.Application.findById(id)
+GET     /findByName/:fname          controllers.Application.findByName(fname)
+GET     /findAll/:limit             controllers.Application.findAll(limit)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
